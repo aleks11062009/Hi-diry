@@ -1,0 +1,51 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: bold;
+    text-align:center;
+}
+
+.header {
+    background: tomato;
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.article {
+    text-align: left;
+    backgrond: deepskyblue;
+    flex: 3;
+    ordtr: 2;
+    padding: 10px;
+}
+
+.aside {
+    padding: 10px;
+}
+
+.aside_lift  {
+    background: gold;
+    flex: 2;
+    order: 1;
+}
+.aside_right {
+    background: hotpink;
+    flex: 2;
+    order: 1;
+}
+
+.footer {  
+    background: lavenderblush;
+    order: 4;
+    padding: 10px;
+}
+
+
+
+
+
